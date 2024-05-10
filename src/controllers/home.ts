@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 
 export const all = (req: Request, res: Response) => {
-  res.send('all');
+  res.render('pages/page');
 };
 export const dogs = (req: Request, res: Response) => {
   res.send('dogs');
